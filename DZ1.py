@@ -26,7 +26,14 @@
 # result = int(n) + int(nn) + int(nnn)
 # print(f"Cумму чисел n + nn + nnn = {result}")
 
-
+# #----------------------Задание №4----------------------
+userNumber = int(input("Введите число:   "))
+bigNumber = 0
+while userNumber:
+    if userNumber % 10 > bigNumber:
+         bigNumber = userNumber % 10
+    userNumber //= 10
+print(bigNumber)
 
 
 
