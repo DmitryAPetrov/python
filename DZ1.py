@@ -24,7 +24,7 @@
 #
 # result = int(n) + int(nn) + int(nnn)
 # print(f"Cумму чисел n + nn + nnn = {result}")
-
+ 
 
 
 
