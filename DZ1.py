@@ -1,3 +1,4 @@
+
 ##----------------------Задание №1----------------------
 # nameUser = input("Введите свое имя:   ")
 # surnameUser =input("Введите свою фамилию:  ")
@@ -13,7 +14,9 @@
 # minute = minute - clock*60
 #
 # print(f'Конвертация (чч:мм:сс) -  {clock}:{minute}:{second}')
-
+#----------------------Задание №2.2----------------------
+# sec_time = 86000
+# print(f'{sec_time // 3600:02} - {sec_time % 3600 // 60:02} - {sec_time % 3600 % 60:02}')
 # #----------------------Задание №3----------------------
 #
 # numberUser = input("Введите число:   ")
@@ -25,10 +28,14 @@
 # result = int(n) + int(nn) + int(nnn)
 # print(f"Cумму чисел n + nn + nnn = {result}")
 
-
-
-
-
+# #----------------------Задание №4----------------------
+# userNumber = int(input("Введите число:   "))
+# bigNumber = 0
+# while userNumber:
+#     if userNumber % 10 > bigNumber:
+#          bigNumber = userNumber % 10
+#     userNumber //= 10
+# print(bigNumber)
 
 
 
